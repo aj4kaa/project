@@ -1,4 +1,5 @@
 @import 'base/vars';
+@import 'base/mixins';
 * {
     font-family: 'Museo Sans', sans-serif;
 }
@@ -9,3 +10,8 @@
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import 'blocks/advantage';
+@import 'blocks/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'base/media';
