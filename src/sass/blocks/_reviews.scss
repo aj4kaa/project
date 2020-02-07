@@ -1,0 +1,43 @@
+.reviews {
+    min-height: 100px;
+    padding: 10px 0 71px 0;
+    &__blocks {
+        width: 885px;
+        padding-top: 70px;
+    }
+    &__block {
+        padding-top: 100px;
+        display: flex;
+        &:first-child {
+            padding-top: 0;
+        }
+    }
+    &__review {
+        margin-left: 62px;
+    }
+    &__img {
+        display: block;
+        margin: 10px auto 0 auto;
+        max-width: 169px;
+        height: 169px;
+        border-radius: 100%;
+    }
+    &__name {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__marafons {
+        padding-top: 10px;
+        color: #646464;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    &__text {
+        padding-top: 19px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
