@@ -28,11 +28,29 @@
         }
     }
     .tns-nav {
+        width: 200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        transition: 0.5 s all;
         button {
-            background-color: red;
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            opacity: 0.2;
+            transform: translateX(-50%);
+            left: 50%;
+            background-color: #000;
+            box-shadow: 2px 2px 20px #000;
         }
         .tns-nav-active {
-            background-color: blue;
+            transition: 0.5s all;
+            opacity: 0.6;
+            background-color: $col1;
+            box-shadow: 2px 2px 15px $col1;
+			border: none;
         }
     }
 }
