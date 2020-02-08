@@ -109,13 +109,14 @@
             font-weight: 700;
         }
         &__wrapper {
+            position: relative;
             display: flex;
             width: calc(200% + 40px);
         }
         &__content {
             width: 50%;
             margin-right: 0;
-            transform: translateX(-100%);
+            transform: translateX(-105%);
             transition: 0.5s all;
             &_active {
                 transform: translateX(0%);
@@ -157,15 +158,19 @@
             position: absolute;
             bottom: 0;
             left: 50px;
-            transform: translateX(calc(-50% - 19px));
+            transform: translateX(-1000%);
             display: block;
             color: $col1;
             font-size: 14px;
             font-weight: 500;
             text-decoration: underline;
             text-transform: uppercase;
+            transition: 0.5s all;
             &:hover {
                 color: $col1;
+            }
+            &_active {
+                transform: translateX(calc(-50% - 19px));
             }
         }
     }
